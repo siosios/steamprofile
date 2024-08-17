@@ -70,7 +70,7 @@ abstract class SteamProfileApp {
         }
 
         $oSteamID = new SteamID($sID);
-        $sXmlUrl = 'http://steamcommunity.com/';
+        $sXmlUrl = 'https://steamcommunity.com/';
 
         // choose if we got a numeric id or an alias
         if (!$oSteamID->isValid()) {
